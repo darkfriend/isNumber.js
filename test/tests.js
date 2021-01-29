@@ -63,6 +63,14 @@ let variables = [
         value: 0xff,
         result: true,
     },
+    {
+        value: -5,
+        result: true,
+    },
+    {
+        value: '-5',
+        result: true,
+    },
 ];
 
 for(let variable of variables) {
