@@ -4,7 +4,7 @@ Check variable on number, integer and float (javascript)
 Methods
 * isNumber - check variable on number
 * isInt - check variable on integer
-* inFloat - check variable on float
+* isFloat - check variable on float
 
 ## How Install
 
