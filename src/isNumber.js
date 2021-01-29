@@ -6,11 +6,11 @@
  * @param {*} variable
  * @return {boolean}
  */
-function isNumeric(variable) {
+function isNumber(variable) {
     return (typeof variable === "string" || typeof variable === "number") && variable!==Infinity && !isNaN(variable) && !isNaN(parseFloat(variable));
 }
 
-module.exports = isNumeric;
+module.exports = isNumber;
 
 // Allow use of default import syntax in TypeScript
-module.exports.default = isNumeric;
+module.exports.default = isNumber;

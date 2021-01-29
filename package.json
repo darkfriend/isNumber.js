@@ -1,6 +1,6 @@
 {
   "name": "isnmbr",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Check variable on number",
   "main": "index.js",
   "scripts": {
@@ -19,7 +19,9 @@
     "validation",
     "number",
     "integer",
-    "float"
+    "float",
+    "isFloat",
+    "isInt"
   ],
   "author": "darkfriend",
   "license": "MIT",
