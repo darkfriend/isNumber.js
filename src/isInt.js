@@ -3,7 +3,7 @@
 const isNumber = require('./isNumber');
 
 /**
- * Check variable on number
+ * Check variable on integer (with polyfill)
  * @author darkfriend <hi@darkfriend.ru>
  * @param {*} variable
  * @return {boolean}

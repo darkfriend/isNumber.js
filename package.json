@@ -1,7 +1,7 @@
 {
   "name": "isnmbr",
-  "version": "1.0.1",
-  "description": "Check variable on number",
+  "version": "1.0.2",
+  "description": "Check variable on number (with polyfills)",
   "main": "index.js",
   "scripts": {
     "test": "mocha"
@@ -21,7 +21,8 @@
     "integer",
     "float",
     "isFloat",
-    "isInt"
+    "isInt",
+    "polyfill"
   ],
   "author": "darkfriend",
   "license": "MIT",

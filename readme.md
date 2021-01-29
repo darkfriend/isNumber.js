@@ -1,4 +1,4 @@
-Check variable on number (javascript)
+Check variable on number, integer and float (javascript)
 =====
 
 Methods
