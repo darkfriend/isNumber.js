@@ -55,6 +55,14 @@ let variables = [
         value: false,
         result: false,
     },
+    {
+        value: Infinity,
+        result: false,
+    },
+    {
+        value: 0xff,
+        result: true,
+    },
 ];
 
 for(let variable of variables) {

@@ -36,6 +36,8 @@ isNumber('5.5abc'); // false
 isNumber(function(){ return 0; }); // false
 isNumber(true); // false
 isNumber(false); // false
+isNumber(Infinity); // false
+isNumber(0xff); // true
 
 ```
 

@@ -7,7 +7,7 @@
  * @return {boolean}
  */
 function isNumeric(variable) {
-    return (typeof variable === "string" || typeof variable === "number") && !isNaN(variable) && !isNaN(parseFloat(variable));
+    return (typeof variable === "string" || typeof variable === "number") && variable!==Infinity && !isNaN(variable) && !isNaN(parseFloat(variable));
 }
 
 module.exports = isNumeric;
