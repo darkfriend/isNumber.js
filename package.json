@@ -1,6 +1,6 @@
 {
-  "name": "isnumber",
-  "version": "0.0.1",
+  "name": "isnmbr",
+  "version": "1.0.0",
   "description": "Check variable on number",
   "main": "index.js",
   "scripts": {
